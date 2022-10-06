@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E9C7FDCE-D52A-8D73-7EB0-C5296AF258F6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CPP">
+      <UniqueIdentifier>{779190a7-7208-4ee8-b8f8-06f93f0bde59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Header">
+      <UniqueIdentifier>{0a42e5cc-a5c3-418b-962a-c238aeded91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TextFiles">
+      <UniqueIdentifier>{a9fdfddf-9566-467e-9ae6-8f00912bb139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PCH">
+      <UniqueIdentifier>{66f1547c-9860-4f67-8863-070ca6abfdf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Libraries">
+      <UniqueIdentifier>{4f3fffae-ba09-44d8-bede-6b5e7fcb1935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{704709d2-8e48-4713-b44c-04d18805b8b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\Headers">
+      <UniqueIdentifier>{67e79b39-833f-4a3e-a38c-fb3100f1e59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers\CPPs">
+      <UniqueIdentifier>{ef03f0be-7e09-4579-baf7-d43ee94c674a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Clicker.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Managers\CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source Files\Managers\CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="SymbolDefines.cpp">
+      <Filter>Source Files\Managers\CPPs</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicButtons.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Source Files\CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="IO.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Clicker.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SymbolDefines.h">
+      <Filter>Source Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Source Files\Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Source Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicButtons.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Source Files\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
